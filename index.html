@@ -20,7 +20,7 @@
 			</ul>
 		</header>
 		<div id="filters" class="container">
-			<input id="toolSearch" type="search" placeholder="hammer.."></input>
+			<input id="toolSearch" type="search" placeholder="book name.."></input>
 			<span class="clear sml-button">Clear</span>
 			<span id="showAvailable" class="sml-button">Show Available</span>
 		</div>
@@ -50,7 +50,7 @@
 				</div>
 		</div>
 
-		<script id="tools" type="text/html">
+		<script id="books" type="text/html">
 		{{#rows}}
 		<div id="{{rowNumber}}" class="tool-box {{#checkedout}}not-{{/checkedout}}available">
 			<span class="tool-box-tool">{{book}}</span>
